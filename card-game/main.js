@@ -92,8 +92,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
         } else {
           //Cards aren't matching, game is lost. Lock the board, flip over the cards and show game text
           lock = true;
-          allCards.forEach(card => card.classList.remove('flip'));
-          document.querySelector('.gameOver').classList.toggle('hide');
+          setTimeout(() => {
+            allCards.forEach(card => card.classList.remove('flip'));
+            document.querySelector('.gameOver').classList.toggle('hide');
+          }, 1000);
         }
       }
     }
