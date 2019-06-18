@@ -3,7 +3,7 @@ This is repository for homework assignment from Visma
 
 **Starting the game**
 
-To start the game you need to press "Play button".
+To start the game you need to press "Play" button.
 ![](screen_shots/main_screen.png)
 
 **Memorize the board**
